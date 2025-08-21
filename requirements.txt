@@ -1,0 +1,51 @@
+# FinFlow - Автоматизированный финансовый ассистент для малого бизнеса
+# Основные зависимости
+
+# Telegram Bot Framework
+aiogram==3.7.0
+
+# Django для админ-панели
+Django==5.0.2
+djangorestframework==3.15.1
+
+# OCR для распознавания чеков
+pytesseract==0.3.10
+Pillow==10.2.0
+
+# Анализ финансовых данных
+pandas==2.2.1
+numpy==1.26.4
+
+# Обработка изображений
+opencv-python==4.9.0.80
+
+# Работа с Excel/CSV
+openpyxl==3.1.2
+xlrd==2.0.1
+
+# База данных
+psycopg2-binary==2.9.9
+
+# Переменные окружения
+python-dotenv==1.0.1
+
+# Логирование
+loguru==0.7.2
+
+# HTTP клиент
+aiohttp==3.9.3
+requests==2.31.0
+
+# Планировщик задач
+celery==5.3.6
+redis==5.0.1
+
+# Тестирование
+pytest==8.0.2
+pytest-django==4.8.0
+pytest-asyncio==0.23.5
+
+# Линтеры и форматирование
+black==24.2.0
+flake8==7.0.0
+isort==5.13.2
